@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JianJian.EasyRedis", "JianJian.EasyRedis\JianJian.EasyRedis.csproj", "{CB53E088-597C-4FFD-BA16-BC73E1DF62C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb", "TestWeb\TestWeb.csproj", "{25C3C018-C6A5-4988-9F45-2DCA7CE187A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB53E088-597C-4FFD-BA16-BC73E1DF62C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB53E088-597C-4FFD-BA16-BC73E1DF62C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB53E088-597C-4FFD-BA16-BC73E1DF62C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB53E088-597C-4FFD-BA16-BC73E1DF62C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C3C018-C6A5-4988-9F45-2DCA7CE187A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C3C018-C6A5-4988-9F45-2DCA7CE187A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C3C018-C6A5-4988-9F45-2DCA7CE187A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C3C018-C6A5-4988-9F45-2DCA7CE187A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6785A3F4-E9B3-477C-9CE0-7D52BB370FBF}
+	EndGlobalSection
+EndGlobal
