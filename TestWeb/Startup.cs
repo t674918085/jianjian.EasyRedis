@@ -27,17 +27,12 @@ namespace TestWeb
 
             services.AddJianjianRedisCache(option =>
             {
-                option.Database = 3;
-                option.Endpoints.Add(new JianJian.EasyRedis.Base.ServerEndPoint("121.40.109.112", 6000));
+                option.Database = 0;
+                option.Endpoints.Add(new JianJian.EasyRedis.Base.ServerEndPoint("", 6000));
                 
             });
 
-            //services.AddDefaultRedisCache(option =>
-            //{
-            //    option.Endpoints.Add(new  ServerEndPoint("121.40.109.112", 6001));
-            //    option.Database = 3;
-            //    option.Password = "fumasoft61279800";
-            //});
+           
 
             services.AddMvc();
         }
@@ -45,7 +40,7 @@ namespace TestWeb
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            //("121.40.109.112:6000,allowadmin=true,password=fumasoft61279800", 2);
+           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
