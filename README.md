@@ -1,6 +1,9 @@
 # jianjian.EasyRedis
 
 #set
+
+
+
  services.AddJianjianRedisCache(option =>
             {
                 option.Database = 3;
@@ -9,5 +12,7 @@
             
      
 #use
+
+
   public IJianjianEasyCachingProvider jianjianEasyCachingProvider { get; set; }
 
